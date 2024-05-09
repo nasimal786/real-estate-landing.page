@@ -1,38 +1,282 @@
-.App {
+.hero {
+  position: relative;
+}
+
+.hero_text {
+  position: absolute;
+  top: 20%;
+  left: 8%;
+}
+.about {
+  margin-top: 6%;
+}
+.about_content {
+  display: flex;
+  justify-content: space-around;
+}
+.line1 {
+  border: 1px solid #ffc10750;
+  margin-top: 5px;
+  width: 300px;
+}
+.about_text {
+  width: 600px;
+  margin-top: 30px;
+}
+.sections {
+  border: 1px solid rgba(0, 0, 0, 0.174);
+  padding: 10px 20px;
+  align-items: center;
+}
+.sections-text {
+  display: flex;
+  justify-content: space-between;
+}
+.icon {
+  color: blue;
+  font-weight: 900;
+  font-size: 34px;
+  cursor: pointer;
+  margin-top: -10px;
+}
+.guarantee-container {
+  position: relative;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.guarantee-img img {
+  height: 650px;
+  width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.guarantee-text {
+  position: absolute;
   display: flex;
   flex-direction: column;
   align-items: center;
+  top: 10%;
+}
+
+.guarantee-list {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  list-style-type: none;
+  margin-left: 60px;
+  margin-top: 6rem;
+}
+
+.guarantee-list li {
+  flex: 0 0 calc(50% - 20px);
+  max-width: calc(50% - 20px);
+  margin: 10px;
+  font-size: large;
+  text-align: left;
+}
+
+.guarantee-list li span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(230, 127, 30, 0.913);
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.guarantee-btn {
+  margin-top: 30px;
+  transform: translateX(-50%);
+  background-color: rgba(230, 127, 30, 0.913);
   color: white;
+  font-size: large;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.pay-carosal {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.pay-booking {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 12px 6px rgba(180, 177, 177, 0.306);
+  cursor: pointer;
+}
+@media screen and (max-width: 930px) {
+  .hero_text {
+    top: 5%;
+    left: 8%;
   }
-  to {
-    transform: rotate(360deg);
+  .about_content {
+    display: flex;
+    justify-content: space-around;
+  }
+  .about_text {
+    width: 400px;
+    margin-top: 30px;
+  }
+  .guarantee-img img {
+    height: 650px;
+    width: 100%;
+  }
+  .guarantee-list {
+    margin-left: 20px;
+    margin-top: 4rem;
+  }
+
+  .guarantee-btn {
+    transform: translateX(-20%);
+  }
+
+  .pay-carosal {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+  }
+  .pay-booking {
+    width: 250px;
+    height: 320px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .hero_sobha {
+    font-size: 30px;
+    margin-bottom: -18px;
+  }
+  .hero_sobha_p {
+    font-size: 12px;
+  }
+  .hero_text button {
+    font-size: 12px;
+    padding: 2px 10px;
+  }
+  .about_text {
+    width: 290px;
+    margin-top: -7px;
+  }
+  .guarantee-text h1 {
+    font-size: 30px;
+  }
+  .guarantee-text p {
+    font-size: 12px;
+  }
+  .guarantee-list {
+    margin-top: 2rem;
+  }
+  .guarantee-list li {
+    font-size: 15px;
+  }
+  .guarantee-list li span {
+    width: 20px;
+    height: 20px;
+  }
+  .pay-carosal {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+  }
+  .pay-booking {
+    width: 200px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .hero_sobha {
+    font-size: 20px;
+    margin-bottom: -28px;
+  }
+  .hero_sobha_p {
+    font-size: 8px;
+  }
+  .hero_text button {
+    font-size: 8px;
+    padding: 2px 10px;
+    margin-top: 5px;
+  }
+  .search {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -30px;
+  }
+  .search2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+  }
+  .search2 div {
+    background-color: rgba(255, 149, 0, 0.831);
+    margin-bottom: 2px;
+  }
+  .search3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .about_content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: -60px;
+  }
+  .about_image img {
+    height: 350px;
+  }
+  .about_text {
+    width: auto;
+    margin-top: 20px;
+  }
+  .about_text h1 {
+    font-size: 20px;
+  }
+  .about_text p {
+    font-size: 8px;
+  }
+  .icon {
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: -8px;
+  }
+  .guarantee {
+    margin-top: -30px;
+  }
+  .guarantee-img img {
+    height: 450px;
+  }
+  .guarantee-text h1 {
+    font-size: 20px;
+  }
+  .guarantee-text p {
+    font-size: 8px;
+  }
+  .guarantee-list li {
+    font-size: 12px;
+  }
+  .guarantee-list li span {
+    width: 10px;
+    height: 10px;
+  }
+  .guarantee-btn {
+    margin-top: 30px;
+    transform: translateX(-5%);
+    background-color: rgba(230, 127, 30, 0.913);
+    color: white;
+    font-size: 10px;
+    padding: 8px 15px;
+    border-radius: 10px;
+  }
+  .pay-carosal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  .pay-booking {
+    width: 300px;
+    height: 350px;
+    margin-bottom: 15px;
   }
 }
