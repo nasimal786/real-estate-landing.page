@@ -5,7 +5,7 @@ const Guaranteed = () => {
     <div className="guarantee mt-6">
       <div className="guarantee-container">
         <div className="guarantee-img">
-          <img src="./images/guarantee.jpg" />
+          <img src="./images/guarantee.jpg" alt="guarantee" />
         </div>
         <div className="guarantee-text ">
           <h1 className="text-5xl font-bold text-amber-500">
