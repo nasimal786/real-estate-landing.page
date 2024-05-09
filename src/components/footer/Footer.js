@@ -11,16 +11,16 @@ const Footer = () => {
             </h2>
             <nav class="list-none mb-10">
               <li>
-                <a href="#" class="text-white hover:text-gray-800">About Us</a>
+                <a href="https://twitter.com/knyttneve" class="text-white hover:text-gray-800">About Us</a>
               </li>
               <li>
-                <a href="#" class="text-white hover:text-gray-800">Our Awardsk</a>
+                <a href="https://twitter.com/knyttneve" class="text-white hover:text-gray-800">Our Awardsk</a>
               </li>
               <li>
-                <a href="#" class="text-white hover:text-gray-800">Philanthropy</a>
+                <a href="https://twitter.com/knyttneve" class="text-white hover:text-gray-800">Philanthropy</a>
               </li>
               <li>
-                <a href="#" class="text-white hover:text-gray-800">Careers</a>
+                <a href="https://twitter.com/knyttneve" class="text-white hover:text-gray-800">Careers</a>
               </li>
             </nav>
           </div>
@@ -30,20 +30,20 @@ const Footer = () => {
             </h2>
             <nav class="list-none mb-10">
               <li>
-                <a href="#" class="text-white hover:text-gray-800">
+                <a href="https://twitter.com/knyttneve" class="text-white hover:text-gray-800">
                   Properties for Sale
                 </a>
               </li>
               <li>
-                <a href="#" class="text-white hover:text-gray-800">
+                <a href="https://twitter.com/knyttneve" class="text-white hover:text-gray-800">
                   Property Management
                 </a>
               </li>
               <li>
-                <a href="#" class="text-white hover:text-gray-800">Holiday Homes</a>
+                <a href="https://twitter.com/knyttneve" class="text-white hover:text-gray-800">Holiday Homes</a>
               </li>
               <li>
-                <a href="#" class="text-white hover:text-gray-800">Leasing</a>
+                <a href="https://twitter.com/knyttneve" class="text-white hover:text-gray-800">Leasing</a>
               </li>
             </nav>
           </div>
@@ -53,18 +53,18 @@ const Footer = () => {
             </h2>
             <nav class="list-none mb-10">
               <li>
-                <a href="#" class="text-white hover:text-gray-800">New Ashok Nagar,</a>
+                <a href="https://twitter.com/knyttneve" class="text-white hover:text-gray-800">New Ashok Nagar,</a>
               </li>
               <li>
-                <a href="#" class="text-white hover:text-gray-800">New Delhi (110096)</a>
+                <a href="https://twitter.com/knyttneve" class="text-white hover:text-gray-800">New Delhi (110096)</a>
               </li>
               <li>
-                <a href="#" class="text-white hover:text-gray-800">
+                <a href="https://twitter.com/knyttneve" class="text-white hover:text-gray-800">
                   realestate@sobha123.com
                 </a>
               </li>
               <li>
-                <a href="#" class="text-white hover:text-gray-800">8109306977</a>
+                <a href="https://twitter.com/knyttneve" class="text-white hover:text-gray-800">8109306977</a>
               </li>
             </nav>
           </div>
@@ -101,7 +101,7 @@ const Footer = () => {
       </div>
       <div class="bg-gray-100">
         <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
-          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <a href="https://twitter.com/knyttneve" class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -128,7 +128,7 @@ const Footer = () => {
             </a>
           </p>
           <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-            <a class="text-blue-500">
+            <a href="https://twitter.com/knyttneve" class="text-blue-500">
               <svg
                 fill="currentColor"
                 stroke-linecap="round"
@@ -140,7 +140,7 @@ const Footer = () => {
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
               </svg>
             </a>
-            <a class="ml-3 text-blue-700">
+            <a href="https://twitter.com/knyttneve" class="ml-3 text-blue-700">
               <svg
                 fill="currentColor"
                 stroke-linecap="round"
@@ -152,7 +152,7 @@ const Footer = () => {
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
               </svg>
             </a>
-            <a class="ml-3 text-red-500">
+            <a href="https://twitter.com/knyttneve" class="ml-3 text-red-500">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -166,7 +166,7 @@ const Footer = () => {
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
               </svg>
             </a>
-            <a class="ml-3 text-blue-800">
+            <a href="https://twitter.com/knyttneve" class="ml-3 text-blue-800">
               <svg
                 fill="currentColor"
                 stroke="currentColor"
