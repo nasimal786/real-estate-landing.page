@@ -11,16 +11,16 @@ const Footer = () => {
             </h2>
             <nav class="list-none mb-10">
               <li>
-                <a class="text-white hover:text-gray-800">About Us</a>
+                <a href="#" class="text-white hover:text-gray-800">About Us</a>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">Our Awardsk</a>
+                <a href="#" class="text-white hover:text-gray-800">Our Awardsk</a>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">Philanthropy</a>
+                <a href="#" class="text-white hover:text-gray-800">Philanthropy</a>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">Careers</a>
+                <a href="#" class="text-white hover:text-gray-800">Careers</a>
               </li>
             </nav>
           </div>
@@ -30,20 +30,20 @@ const Footer = () => {
             </h2>
             <nav class="list-none mb-10">
               <li>
-                <a class="text-white hover:text-gray-800">
+                <a href="#" class="text-white hover:text-gray-800">
                   Properties for Sale
                 </a>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">
+                <a href="#" class="text-white hover:text-gray-800">
                   Property Management
                 </a>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">Holiday Homes</a>
+                <a href="#" class="text-white hover:text-gray-800">Holiday Homes</a>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">Leasing</a>
+                <a href="#" class="text-white hover:text-gray-800">Leasing</a>
               </li>
             </nav>
           </div>
@@ -53,18 +53,18 @@ const Footer = () => {
             </h2>
             <nav class="list-none mb-10">
               <li>
-                <a class="text-white hover:text-gray-800">New Ashok Nagar,</a>
+                <a href="#" class="text-white hover:text-gray-800">New Ashok Nagar,</a>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">New Delhi (110096)</a>
+                <a href="#" class="text-white hover:text-gray-800">New Delhi (110096)</a>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">
+                <a href="#" class="text-white hover:text-gray-800">
                   realestate@sobha123.com
                 </a>
               </li>
               <li>
-                <a class="text-white hover:text-gray-800">8109306977</a>
+                <a href="#" class="text-white hover:text-gray-800">8109306977</a>
               </li>
             </nav>
           </div>

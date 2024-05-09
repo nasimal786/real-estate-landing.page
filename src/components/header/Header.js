@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <header class="text-gray-600 body-font">
       <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-        <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+        <a href="#" class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -20,12 +20,12 @@ const Header = () => {
           <span class="ml-3 font-bold text-xl">SOBHA</span>
         </a>
         <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
-          <a class="mr-5 font-bold hover:text-gray-900">Home</a>
-          <a class="mr-5 font-bold hover:text-gray-900">About</a>
-          <a class="mr-5 font-bold hover:text-gray-900">Payment Plan</a>
-          <a class="mr-5 font-bold hover:text-gray-900">Floor Plan</a>
-          <a class="mr-5 font-bold hover:text-gray-900">Amenities</a>
-          <a class="mr-5 font-bold hover:text-gray-900">Contact</a>
+          <a href="#" class="mr-5 font-bold hover:text-gray-900">Home</a>
+          <a href="#" class="mr-5 font-bold hover:text-gray-900">About</a>
+          <a href="#" class="mr-5 font-bold hover:text-gray-900">Payment Plan</a>
+          <a href="#" class="mr-5 font-bold hover:text-gray-900">Floor Plan</a>
+          <a href="#" class="mr-5 font-bold hover:text-gray-900">Amenities</a>
+          <a href="#" class="mr-5 font-bold hover:text-gray-900">Contact</a>
         </nav>
         <button class="inline-flex items-center bg-amber-400 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">
           Register Now
